@@ -56,10 +56,8 @@ class _ProfilePageState extends State<ProfilePage> {
                   CircleAvatar(
                     radius: 65,
                     backgroundColor: Colors.grey[200],
-                    child: Icon(
-                      Icons.person,
-                      size: 80,
-                      color: Colors.grey[600],
+                    backgroundImage: const NetworkImage(
+                      'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&auto=format&fit=crop&q=80',
                     ),
                   ),
                   const Positioned(
